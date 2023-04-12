@@ -27,7 +27,7 @@ web browser from any device with internet connection <br>
  <ul dir="auto">
   <li>install <b>MY SQL</b> and configure connection</li>
   <li>Go to <b>/taxi/util/ConnectionUtil.java</b>, and fill all the String constants</li>
-  <li>Execute SQL query given in <b>/resources/init-db.sql</b> in MY SQL</li>
+  <li>Execute SQL query given in<b>/ resources/init-db.sql</b> in MY SQL</li>
   <li>Configure Tomcat</li>
   <li>Start the APP and enjoy</li>
   <li>Users can build the project by executing 'mvn clean package' in terminal</li>
@@ -41,12 +41,12 @@ web browser from any device with internet connection <br>
  </ul>
    Layer structure
  <ul dir="auto">
-  <li><b>controller</b>Javax Servlet controllers</li>
-  <li><b>dao</b>Data Access Objects - direct access to database</li>
-  <li><b>exception</b>Exceptions</li>
-  <li><b>lib</b>Reflexion related classes and annotations</li>
-  <li><b>model</b>POJOs for this project</li>
-  <li><b>service</b>Business logic layer</li>
-  <li><b>util</b>Utility classes</li>
-  <li><b>web.filter</b>Web filters layer</li>
+  <li><b>controller</b> Javax Servlet controllers</li>
+  <li><b>dao</b> Data Access Objects - direct access to database</li>
+  <li><b>exception</b> Exceptions</li>
+  <li><b>lib</b> Reflexion related classes and annotations</li>
+  <li><b>model</b> POJOs for this project</li>
+  <li><b>service</b> Business logic layer</li>
+  <li><b>util</b> Utility classes</li>
+  <li><b>web.filter</b> Web filters layer</li>
  </ul>
