@@ -1,6 +1,6 @@
 ﻿# 🚖taxi-service🚖
 A simple and light web aplication for tracking your taxi service business <br>
-by interacting with local or remote MY SQL database through <br>
+by interacting with local or remote MySQL database through <br>
 web browser from any device with internet connection <br>
 <h2 tabindex="-1">﻿🛠️Functionality🛠️</h2>
  <ul dir="auto">
@@ -17,17 +17,17 @@ web browser from any device with internet connection <br>
   <li>Java (v17.0.6)</li>
   <li>APACHE TOMCAT (v9.0.73)</li>
   <li>JAVAX Servlet API (v4.0.1)</li>
-  <li>MY SQL (v8.0.24)</li>
+  <li>MySQL (v8.0.24)</li>
   <li>JDBC (v4.2)</li>
   <li>Apache maven (v4.0.0)</li>
  </ul>
   <h2 tabindex="-1">﻿🎯How to run🎯</h2>
  In order to start using taxi service, user will need to go throgh a few steps first
- in MY SQL WORKBENCH.
+ in MySQL WORKBENCH.
  <ul dir="auto">
-  <li>install <b>MY SQL</b> and configure connection</li>
+  <li>install <b>MySQL</b> and configure connection</li>
   <li>Go to <b>/taxi/util/ConnectionUtil.java</b>, and fill all the String constants</li>
-  <li>Execute SQL query given in<b>/ resources/init-db.sql</b> in MY SQL</li>
+  <li>Execute SQL query given in<b>/ resources/init-db.sql</b> in MySQL</li>
   <li>Configure Tomcat</li>
   <li>Start the APP and enjoy</li>
   <li>Users can build the project by executing 'mvn clean package' in terminal</li>
