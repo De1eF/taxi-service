@@ -12,16 +12,16 @@ web browser from any device with internet connection <br>
   <h2 tabindex="-1">﻿🔒Security🔒</h2>
  The service has a protection system <br>
  Only authenticated users will have acsess to the functionality
-  <h2 tabindex="-1">﻿⚙️Used technologies⚙️</h2>
+ <h2 tabindex="-1">﻿⚙️Used technologies⚙️</h2>
   <ul dir="auto">
   <li>Java (v17.0.6)</li>
   <li>APACHE TOMCAT (v9.0.73)</li>
   <li>JAVAX Servlet API (v4.0.1)</li>
-  <li>My SQL (v8.0.24)</li>
+  <li>MY SQL (v8.0.24)</li>
   <li>JDBC (v4.2)</li>
   <li>Apache maven (v4.0.0)</li>
  </ul>
-  <h2 tabindex="-1">﻿🎯Initialization🎯</h2>
+  <h2 tabindex="-1">﻿🎯How to run🎯</h2>
  In order to start using taxi service, user will need to go throgh a few steps first
  in MY SQL WORKBENCH.
  <ul dir="auto">
@@ -47,6 +47,6 @@ web browser from any device with internet connection <br>
   <li><b>lib</b>Reflexion related classes and annotations</li>
   <li><b>model</b>POJOs for this project</li>
   <li><b>service</b>Business logic layer</li>
-  <li><b>uil</b>Utility classes</li>
+  <li><b>util</b>Utility classes</li>
   <li><b>web.filter</b>Web filters layer</li>
  </ul>
